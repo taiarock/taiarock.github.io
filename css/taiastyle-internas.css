@@ -1,0 +1,627 @@
+/*Padrão*/
+
+@font-face {
+    font-family: 'sequilight';
+    src: url('sequi_light-webfont.eot');
+    src: url('sequi_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sequi_light-webfont.woff') format('woff'),
+         url('sequi_light-webfont.ttf') format('truetype'),
+         url('sequi_light-webfont.svg#sequilight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+h1 {
+	font-family: 'sequilight', Arial, serif;
+	font-size: 71px;
+	line-height: 65px;
+	text-align: center;
+
+}
+
+h2 {
+	font-family: 'Roboto', Arial, serif; font-weight: 100; 
+	font-size: 35px;
+	color: #28c2aa;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Roboto', Arial, serif; font-weight: 500; 
+	font-size: 80px;
+	text-align: center;
+	text-transform: uppercase;
+
+
+}
+
+h4 {
+	font-family:'Roboto', Arial, serif; font-weight: 100; 
+	font-size: 20px;
+	text-align: center;
+
+
+}
+
+h5 {
+	font-family: 'Roboto', Arial, serif; font-weight: 300; 
+	font-size: 14px;
+	text-align: center;
+	line-height: 23px;
+}	
+
+h5::selection, h4::selection {
+    background:#03f1cc ;
+    color: #000 ;
+}
+
+/* Gecko/Mozilla */
+h5::-moz-selection, h4::-moz-selection {
+    background:#03f1cc ;
+    color: #000 ;
+}
+
+/*------ HEADER ------------------------*/
+
+
+section#line-mpi {
+	width: 100%;
+	height: 4px;
+	background-color: #ffaa5e;
+	background-position: center top;
+	margin: auto;
+	display: block;
+
+}
+
+
+section#line-mpd {
+	width: 100%;
+	height: 4px;
+	background-color: #eed028;
+	background-position: center top;
+	margin: auto;
+	display: block;
+}
+
+section#line-lula {
+	width: 100%;
+	height: 4px;
+	background-color: #9f1111;
+	background-position: center top;
+	margin: auto;
+	display: block;
+}
+
+section#line-facetouch {
+	width: 100%;
+	height: 4px;
+	background-color: #a1a1a1;
+	background-position: center top;
+	margin: auto;
+	display: block;
+}
+
+section#line-metro {
+	width: 100%;
+	height: 4px;
+	background-color: #00466c;
+	background-position: center top;
+	margin: auto;
+	display: block;
+}
+
+header#header-metro {
+	height: 100px;
+	background-color: #0d8ab9;
+	padding: 30px;
+	margin: auto auto 30px auto;
+
+}
+
+header#header-mpi {
+	height: 100px;
+	background-color: #ff7800;
+	padding: 30px;
+	margin: auto auto 30px auto;
+
+}
+
+header#header-mpd {
+	height: 100px;
+	background-color: #f4da4c;
+	padding: 30px;
+	margin: auto auto 30px auto;
+
+}
+
+header#header-lula {
+	height: 100px;
+	background-color: #d71313;
+	padding: 30px;
+	margin: auto auto 30px auto;
+
+}
+
+header#header-facetouch {
+	height: 100px;
+	background-color: #dfdfdf;
+	padding: 30px;
+	margin: auto auto 30px auto;
+}
+
+header#header-mpi h3, header#header-lula h3, header#header-metro h3{
+	color: #fff;
+}
+
+header#header-mpd h3{
+	color: #0d8ab9;
+}
+
+header#header-facetouch h3{
+	color: #0a6db3;
+}
+
+
+
+/*------ MPI DIGITAL ------------------------*/
+
+section#mpidigital {
+	width: 978px;
+	margin: auto;
+
+}
+
+section#mpidigital img.square {
+	margin: auto auto 50px auto;
+
+}
+
+
+section#mpidigital aside.left, section#mpidigital aside.right {
+	width: 390px;
+	height: auto;
+	margin-top: 200px;
+}
+
+section#mpidigital aside.left {
+	float: left;
+}
+
+section#mpidigital aside.right {
+	float: right;
+}
+
+section#mpidigital aside.center {
+	margin-bottom: 20px;
+
+}
+
+section#mpidigital aside.center h4 {
+	font-weight: 300;
+	color: #ff7800;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+section#mpidigital aside.center h5 {
+	font-size: 18px;
+	color: #6f6f6f;
+	text-align: center;
+}
+
+
+section#mpidigital aside.left h5, section#mpidigital aside.right h5 {
+	font-size: 18px;
+	color: #6f6f6f;
+	text-align: left;
+}
+
+section#mpidigital aside.left h4, section#mpidigital aside.right h4 {
+	font-weight: 300;
+	color: #ff7800;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+section#mpidigital img.circle-right {
+	width: 520px;
+	height: 521px;
+	float: right;
+	margin-bottom: 50px;
+
+}
+
+section#mpidigital img.circle-left {
+	width: 520px;
+	height: 521px;
+	float: left;
+	margin-bottom: 50px;
+}
+
+
+
+/*------ MARIDO PÃO DURO ------------------------*/
+
+section#mpd {
+	width: 978px;
+	margin: auto;
+
+}
+
+section#mpd img.square {
+	margin: auto auto 50px auto;
+
+}
+
+
+section#mpd aside.left, section#mpd aside.right, section#mpd aside.left1  {
+	width: 390px;
+	height: auto;
+
+}
+
+section#mpd aside.left1 {
+	float: left;
+	margin-top: 170px;
+}
+section#mpd aside.left {
+	float: left;
+	margin-top: 200px;
+}
+
+section#mpd aside.right {
+	float: right;
+	margin-top: 200px;
+}
+
+section#mpd aside.center {
+	margin-bottom: 20px;
+
+}
+
+section#mpd aside.center h4 {
+	font-weight: 300;
+	color: #F3CC02;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+section#mpd aside.center h5 {
+	font-size: 18px;
+	color: #6f6f6f;
+	text-align: center;
+}
+
+section#mpd aside.left h5, section#mpd aside.left1 h5, section#mpd aside.right h5, section#mpd aside.right1 h5 {
+	font-size: 18px;
+	color: #6f6f6f;
+	text-align: left;
+}
+
+
+section#mpd aside.left h4, section#mpd aside.left1 h4, section#mpd aside.right h4, section#mpd aside.right1 h4 {
+	font-weight: 300;
+	color: #F3CC02;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+section#mpd img.circle-right {
+	width: 520px;
+	height: 521px;
+	float: right;
+	margin-bottom: 50px;
+
+}
+
+section#mpd img.circle-right1 {
+	width: 520px;
+	height: 521px;
+	float: right;
+	margin-top: -90px;
+	margin-bottom: 50px;
+
+}
+
+section#mpd img.circle-left {
+	width: 520px;
+	height: 521px;
+	float: left;
+	margin-bottom: 50px;
+}
+
+/*------ FACETOUCH ------------------------*/
+
+section#facetouch {
+	width: 978px;
+	margin: auto;
+
+}
+
+
+section#facetouch img.square {
+	margin: auto auto 50px auto;
+
+}
+
+
+section#facetouch aside.left, section#facetouch aside.right {
+	width: 390px;
+	height: auto;
+	margin-top: 200px;
+}
+
+section#facetouch aside.left {
+	float: left;
+}
+
+section#facetouch aside.right {
+	float: right;
+}
+
+section#facetouch aside.center {
+	margin-bottom: 20px;
+
+}
+
+section#facetouch aside.left h5, section#facetouch aside.right h5 {
+	font-size: 18px;
+	color: #6f6f6f;
+	text-align: left;
+}
+
+section#facetouch aside.left h4, section#facetouch aside.right h4 {
+	font-weight: 300;
+	color: #0a6db3;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+section#facetouch aside.center h4 {
+	font-weight: 300;
+	color: #0a6db3;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+section#facetouch aside.center h5 {
+	font-size: 18px;
+	color: #6f6f6f;
+	text-align: center;
+}
+
+section#facetouch img.circle-right {
+	width: 520px;
+	height: 521px;
+	float: right;
+	margin-bottom: 50px;
+
+}
+
+section#facetouch img.circle-left {
+	width: 520px;
+	height: 521px;
+	float: left;
+	margin-bottom: 50px;
+}
+
+
+/*------ LULA ------------------------*/
+
+section#lula {
+	width: 978px;
+	margin: auto;
+
+}
+
+
+section#lula img.square {
+	margin: auto auto 50px auto;
+
+}
+
+
+section#lula aside.left, section#lula aside.right {
+	width: 390px;
+	height: auto;
+	margin-top: 200px;
+}
+
+section#lula aside.left {
+	float: left;
+}
+
+section#lula aside.right {
+	float: right;
+}
+
+section#lula aside.center {
+	margin-bottom: 20px;
+
+}
+
+section#lula aside.left h5, section#lula aside.right h5 {
+	font-size: 18px;
+	color: #6f6f6f;
+	text-align: left;
+}
+
+section#lula aside.left h4, section#lula aside.right h4 {
+	font-weight: 300;
+	color: #d71313;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+
+section#lula aside.center h4 {
+	font-weight: 300;
+	color: #d71313;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+section#lula aside.center h5 {
+	font-size: 18px;
+	color: #6f6f6f;
+	text-align: center;
+}
+
+section#lula img.circle-right {
+	width: 520px;
+	height: 521px;
+	float: right;
+	margin-bottom: 50px;
+
+}
+
+section#lula img.circle-left {
+	width: 520px;
+	height: 521px;
+	float: left;
+	margin-bottom: 50px;
+}
+
+
+/*------ METRO RIO ------------------------*/
+
+section#metro {
+	width: 978px;
+	margin: auto;
+
+}
+
+section#metro img.square {
+	margin: auto auto 50px auto;
+
+}
+
+
+section#metro aside.left, section#metro aside.right, section#metro aside.left1  {
+	width: 390px;
+	height: auto;
+
+}
+
+section#metro aside.left1 {
+	float: left;
+	margin-top: 170px;
+}
+section#metro aside.left {
+	float: left;
+	margin-top: 200px;
+}
+
+section#metro aside.right {
+	float: right;
+	margin-top: 200px;
+}
+
+section#metro aside.center {
+	margin-bottom: 20px;
+
+}
+
+section#metro aside.center h4 {
+	font-weight: 300;
+	color: #03a3dd;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+section#metro aside.center h5 {
+	font-size: 18px;
+	color: #6f6f6f;
+	text-align: center;
+}
+
+section#metro aside.left h5, section#metro aside.left1 h5, section#metro aside.right h5, section#metro aside.right1 h5 {
+	font-size: 18px;
+	color: #6f6f6f;
+	text-align: left;
+}
+
+
+section#metro aside.left h4, section#metro aside.left1 h4, section#metro aside.right h4, section#metro aside.right1 h4 {
+	font-weight: 300;
+	color: #03a3dd;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+section#metro img.circle-right {
+	width: 520px;
+	height: 521px;
+	float: right;
+	margin-bottom: 50px;
+
+}
+
+section#metro img.circle-right1 {
+	width: 520px;
+	height: 521px;
+	float: right;
+	margin-top: -90px;
+	margin-bottom: 50px;
+
+}
+
+section#metro img.circle-left {
+	width: 520px;
+	height: 521px;
+	float: left;
+	margin-bottom: 50px;
+}
+
+
+
+
+/*------ FOOTER ------------------------*/
+
+
+footer, section#back {
+	width: 100%;
+	margin: auto;
+	clear: both;
+}
+
+footer a nav {
+	text-align: center;
+	padding: 20px;
+	background-color: #03f1cc;
+	border-bottom: #09c7a9 4px solid;
+}
+
+footer a.go-top nav {
+	text-decoration: none;
+	text-transform: uppercase;
+	vertical-align: middle;
+	color: #000;
+	font-size: 20px;
+	font-family:'Roboto', Arial, serif; font-weight: 300; 
+}
+
+footer a div {
+	text-align: center;
+	padding: 20px;
+	background-color: #1e1e1e;
+}
+
+footer a.go-home div , section#back a.go-home div {
+	text-decoration: none;
+	text-transform: uppercase;
+	vertical-align: middle;
+	color: #fff;
+	font-size: 20px;
+	font-family:'Roboto', Arial, serif; font-weight: 300; 
+}
+
+ section#back a div {
+	text-align: center;
+	padding: 20px;
+	background-color: #1e1e1e;
+}
+

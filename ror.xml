@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://www.taiadesigner.com/</title>
+  <link>http://www.taiadesigner.com/</link>
+
+<item>
+     <link>http://www.taiadesigner.com/</link>
+     <title>Taia Designer</title>
+     <description>Taia Designer</description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.taiadesigner.com/resume_tahiana-araujo.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.taiadesigner.com/projects/mpd.html</link>
+     <title>Taia Designer - Projetos - MPI Digital</title>
+     <description>Taia Designer - Projetos - MPI Digital</description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.taiadesigner.com/projects/facetouch.html</link>
+     <title>Taia Designer - Projetos - MPI Digital</title>
+     <description>Taia Designer - Projetos - MPI Digital</description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.taiadesigner.com/projects/lula.html</link>
+     <title>Taia Designer - Projetos - MPI Digital</title>
+     <description>Taia Designer - Projetos - MPI Digital</description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.taiadesigner.com/projects/mpi-digital.html</link>
+     <title>Taia Designer - Projetos - MPI Digital</title>
+     <description>Taia Designer - Projetos - MPI Digital</description>
+     <ror:updatePeriod>weekly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  

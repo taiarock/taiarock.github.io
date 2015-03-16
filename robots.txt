@@ -1,0 +1,6 @@
+
+#Begin Attracta SEO Tools Sitemap. Do not remove
+sitemap: http://www.taiadesigner.com/sitemap.xml
+User-Agent: Googlebot
+Disallow: /en/
+#End Attracta SEO Tools Sitemap. Do not remove

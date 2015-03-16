@@ -1,0 +1,326 @@
+/*Padrão*/
+
+@font-face {
+    font-family: 'sequilight';
+    src: url('sequi_light-webfont.eot');
+    src: url('sequi_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('sequi_light-webfont.woff') format('woff'),
+         url('sequi_light-webfont.ttf') format('truetype'),
+         url('sequi_light-webfont.svg#sequilight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+h1 {
+	font-family: 'sequilight', Arial, serif;
+	font-size: 71px;
+	line-height: 65px;
+	text-align: center;
+
+}
+
+h2 {
+	font-family: 'Roboto', Arial, serif; font-weight: 100; 
+	font-size: 35px;
+	color: #28c2aa;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Roboto', Arial, serif; font-weight: 500; 
+	font-size: 80px;
+	text-align: center;
+	text-transform: uppercase;
+
+
+}
+
+h4 {
+	font-family:'Roboto', Arial, serif; font-weight: 100; 
+	font-size: 20px;
+	text-align: center;
+
+
+}
+
+h5 {
+	font-family: 'Roboto', Arial, serif; font-weight: 400; 
+	font-size: 14px;
+	text-align: center;
+	line-height: 23px;
+}	
+
+/*Header*/
+
+section#line {
+	width: 100%;
+	height: 4px;
+	background-color: #0affd7;
+	background-position: center top;
+	margin: 0 auto 80px auto;
+	display: block;
+
+}
+
+
+Header#home {
+	position: relative;
+
+	width: 978px;
+	margin: auto;
+}
+
+Section#logo h1 span {
+		font-size: 78px;
+}
+
+header#home img {
+	margin-top: 80px;
+	position: absolute;
+}
+
+header#home h1,h2 {
+
+	text-align: center;
+	z-index: 9999;
+
+}
+header#home h1 {
+	margin: 80px auto 10px auto;
+}
+	
+
+Section#about {
+
+	width: 290px;
+	height: 240px;
+	margin-top: 5px;
+	float: right;
+}
+
+Section#about h4 { 
+	margin-bottom: 5px;
+	text-align: left;
+	color: #28c2aa;
+	font-size: 21px;
+}
+
+Section#about h5 { 
+	text-align: left;
+	line-height: 17px;
+	color: #2f2f2f;
+}
+
+Section#about h5 span { 
+	font-style: italic;
+	color: #fff;
+}
+
+section#scroll{
+	text-align: center;
+	width: 20px;
+	height: 80px;
+	margin: 200px auto 110px auto;
+	}
+
+section#scroll h5{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 300; 
+	color: #646464;
+	margin-bottom: 10px;
+	}
+
+section#scroll img {
+	width: 30px;
+	height: 50px;
+	margin: auto auto 115px auto;
+	position: absolute;
+}
+
+
+
+/*works*/
+
+
+section#work ul li {
+	width: 100%;
+	height: 290px;
+	background-color: #03a3dd;
+	padding-top: 70px;
+	overflow: hidden;
+
+}
+
+/*works > project 1*/
+section#work ul li a.mpd-capa{
+		text-decoration: none;
+		display: block;
+		z-index: 1;
+}
+
+
+section#work ul li a.mpd-capa h5 {
+	color: #000;
+	width: 535px;
+	margin: auto;
+}
+
+
+section#work ul li a.mpd-capa  h3 {
+	color: #fff600;
+	margin-bottom: 5px;
+
+}
+
+section#work ul li a.mpd-capa  h4 {
+	color: #000;
+	margin-bottom: 40px;
+
+}
+
+section#work ul li a.mpd-capa .content-capa {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 290px;
+
+}
+
+section#work ul li a.mpd-capa .content-capa aside {
+width: 100%;
+height: 290px;
+text-align: center;
+background: url(../img/mpd-hover.jpg) no-repeat 50% 50%;
+background-color: #000;
+position: absolute;
+top: 290px;
+padding-top: 70px;
+z-index: 2;
+margin: auto;
+-webkit-transition: .3s;
+-moz-transition: .3s;
+-o-transition: .3s;
+transition: .3s;
+}
+
+section#work ul li a.mpd-capa:hover .content-capa aside { top: -70px;}
+
+/*___________________*/
+
+
+/*works > project 2*/
+
+section#work ul li a.mpd-capa1{
+		text-decoration: none;
+		display: block;
+		z-index: 1;
+}
+
+
+section#work ul li a.mpd-capa1 h5 {
+	color: #000;
+	width: 535px;
+	margin: auto;
+}
+
+
+section#work ul li a.mpd-capa1  h3 {
+	color: #fff600;
+	margin-bottom: 5px;
+
+}
+
+section#work ul li a.mpd-capa1  h4 {
+	color: #000;
+	margin-bottom: 40px;
+
+}
+
+section#work ul li a.mpd-capa1 .content-capa {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 290px;
+
+}
+
+section#work ul li a.mpd-capa1 aside {
+width: 100%;
+	height: 290px;
+	text-align: center;
+	position: absolute;
+	padding-top: 70px;
+	z-index: 1;
+	margin: auto;
+	top: -70px;
+	-webkit-transition: 3s 5s;
+	-moz-transition: 3s 5s;
+	-o-transition: 3s 5s;
+	-ms-transition: 3s 5s;
+	transition: 3s 5s;
+}
+
+section#work ul li a.mpd-capa1:hover .content-capa aside { 
+	display: block;
+	top: -70px;
+		background: url(../img/mpd-hover-bg.jpg) no-repeat 50% 50%;
+}
+
+
+
+
+
+/*___________________*/
+
+
+
+
+
+
+
+
+/*footer*/
+
+
+footer {
+	background-color: #03f1cc;
+	margin: auto;
+}
+
+footer nav {
+	text-align: center;
+	padding: 40px;
+}
+
+footer nav a.backtop {
+	text-decoration: none;
+	text-transform: uppercase;
+	vertical-align: middle;
+	color: #000;
+	font-size: 20px;
+	font-family:'Roboto', Arial, serif; font-weight: 100; 
+
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+
+
+
+/*______
+
+
+.face {
+	width: 100%;
+	height: 400px;
+	background-color: #dfdfdf;
+	display: block;
+	margin: 0px;
+
+}
+
+
