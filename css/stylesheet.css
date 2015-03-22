@@ -1,0 +1,740 @@
+@charset "utf-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* CSS Document */
+/* line 20, ../sass/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 30, ../sass/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 33, ../sass/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 36, ../sass/_reset.scss */
+ol, ul, li {
+  list-style: none;
+}
+
+/* line 39, ../sass/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 43, ../sass/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 47, ../sass/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 52, ../sass/_reset.scss */
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'sequilight';
+  src: url("sequi_light-webfont.eot");
+  src: url("sequi_light-webfont.eot?#iefix") format("embedded-opentype"), url("sequi_light-webfont.woff") format("woff"), url("sequi_light-webfont.ttf") format("truetype"), url("sequi_light-webfont.svg#sequilight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 16, ../sass/_default-home.scss */
+h1 {
+  font-family: 'sequilight', Arial, serif;
+  font-size: 71px;
+  line-height: 65px;
+  text-align: center;
+}
+
+/* line 24, ../sass/_default-home.scss */
+h2 {
+  font-family: 'Roboto', Arial, serif;
+  font-weight: 100;
+  font-size: 35px;
+  color: #28c2aa;
+  text-align: center;
+}
+
+/* line 31, ../sass/_default-home.scss */
+h3 {
+  font-family: 'Roboto', Arial, serif;
+  font-weight: 500;
+  font-size: 80px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 40, ../sass/_default-home.scss */
+h4 {
+  font-family: 'Roboto', Arial, serif;
+  font-weight: 100;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* line 48, ../sass/_default-home.scss */
+h5 {
+  font-family: 'Roboto', Arial, serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  line-height: 23px;
+}
+
+/*Padrão*/
+/*arquivo para gerenciar os projetos*/
+/*------ HEADER ------------------------*/
+/* line 18, ../sass/stylesheet.scss */
+section#line-home {
+  width: 100%;
+  height: 4px;
+  background-color: #0affd7;
+  background-position: center top;
+  margin: 0 auto 80px auto;
+  display: block;
+}
+
+/* line 29, ../sass/stylesheet.scss */
+header#home {
+  position: relative;
+  width: 978px;
+  margin: auto;
+}
+/* line 34, ../sass/stylesheet.scss */
+header#home section#logo h1 span {
+  font-size: 78px;
+  letter-spacing: 6px;
+}
+/* line 39, ../sass/stylesheet.scss */
+header#home img {
+  margin-top: 80px;
+  position: absolute;
+}
+/* line 44, ../sass/stylesheet.scss */
+header#home h1 {
+  margin: 80px auto 5px auto;
+  letter-spacing: 4px;
+}
+/* line 49, ../sass/stylesheet.scss */
+header#home h1, header#home h2 {
+  text-align: center;
+}
+/* line 54, ../sass/stylesheet.scss */
+header#home section#scroll {
+  text-align: center;
+  width: 55px;
+  height: 80px;
+  margin: 200px auto 110px auto;
+  position: relative;
+}
+/* line 61, ../sass/stylesheet.scss */
+header#home section#scroll h5 {
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #646464;
+}
+/* line 67, ../sass/stylesheet.scss */
+header#home section#scroll img {
+  width: 30px;
+  height: 50px;
+  margin: auto auto 115px auto;
+  position: relative;
+}
+
+/*header > about*/
+/* line 79, ../sass/stylesheet.scss */
+section#about {
+  width: 30%;
+  height: 240px;
+  margin-top: 5px;
+  float: right;
+}
+/* line 86, ../sass/stylesheet.scss */
+section#about h4 {
+  margin-bottom: 5px;
+  text-align: left;
+  color: #28c2aa;
+  font-size: 21px;
+}
+/* line 93, ../sass/stylesheet.scss */
+section#about h5 {
+  text-align: left;
+  line-height: 17px;
+  color: #2f2f2f;
+}
+/* line 98, ../sass/stylesheet.scss */
+section#about h5 span {
+  font-style: italic;
+  color: #fff;
+}
+/* line 104, ../sass/stylesheet.scss */
+section#about address {
+  height: 120px;
+}
+/* line 107, ../sass/stylesheet.scss */
+section#about address h5 {
+  width: 100%;
+  height: 33px;
+  padding-top: 7px;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+/* line 114, ../sass/stylesheet.scss */
+section#about address a {
+  text-decoration: none;
+  text-align: left;
+}
+/* line 119, ../sass/stylesheet.scss */
+section#about address .email, section#about address .linkedin, section#about address .resume {
+  margin-top: 10px;
+  height: 33px;
+}
+/* line 124, ../sass/stylesheet.scss */
+section#about address .email .icon-email, section#about address .linkedin .icon-email, section#about address .resume .icon-email, section#about address .email .linkedin .icon-linkedin, section#about address .linkedin .email .icon-linkedin, section#about address .linkedin .icon-linkedin, section#about address .resume .linkedin .icon-linkedin, section#about address .linkedin .resume .icon-linkedin, section#about address .email .resume .icon-resume, section#about address .resume .email .icon-resume, section#about address .linkedin .resume .icon-resume, section#about address .resume .linkedin .icon-resume, section#about address .resume .icon-resume {
+  background-image: url(../img/icons-about.jpg);
+  background-position: 33px 0px;
+  width: 33px;
+  height: 33px;
+  overflow: hidden;
+  float: left;
+  margin-right: 10px;
+}
+/* line 133, ../sass/stylesheet.scss */
+section#about address .email .icon-email:hover, section#about address .linkedin .icon-email:hover, section#about address .resume .icon-email:hover, section#about address .email .linkedin .icon-linkedin:hover, section#about address .linkedin .email .icon-linkedin:hover, section#about address .linkedin .icon-linkedin:hover, section#about address .resume .linkedin .icon-linkedin:hover, section#about address .linkedin .resume .icon-linkedin:hover, section#about address .email .resume .icon-resume:hover, section#about address .resume .email .icon-resume:hover, section#about address .linkedin .resume .icon-resume:hover, section#about address .resume .linkedin .icon-resume:hover, section#about address .resume .icon-resume:hover {
+  background-position: 0px 0;
+}
+/* line 142, ../sass/stylesheet.scss */
+section#about address .linkedin .icon-linkedin {
+  background-position: 33px 66px;
+}
+/* line 146, ../sass/stylesheet.scss */
+section#about address .linkedin .icon-linkedin:hover {
+  background-position: 0px 66px;
+}
+/* line 155, ../sass/stylesheet.scss */
+section#about address .resume .icon-resume {
+  background-position: 33px 33px;
+}
+/* line 159, ../sass/stylesheet.scss */
+section#about address .resume .icon-resume:hover {
+  background-position: 0px 33px;
+}
+
+/*------ PROJECTS ------------------------*/
+/*project > project 1*/
+/* line 172, ../sass/stylesheet.scss */
+section#work ul li.project1 {
+  width: 100%;
+  height: 290px;
+  background: url(../img/mpd-hover-bg.jpg) black no-repeat 50% 50%;
+  background-color: #000;
+  padding-top: 70px;
+  overflow: hidden;
+}
+/* line 15, ../sass/mixin/_project-expo.scss */
+section#work ul li.project1:hover a aside {
+  display: block;
+  background-color: #000;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+}
+/* line 21, ../sass/mixin/_project-expo.scss */
+section#work ul li.project1:hover .content-capa1 {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+/* line 25, ../sass/mixin/_project-expo.scss */
+section#work ul li.project1 .content-capa1 {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 290px;
+  padding-top: 70px;
+  background-color: #f4da4c;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=1000);
+  opacity: 10;
+  top: -430px;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+/* line 36, ../sass/mixin/_project-expo.scss */
+section#work ul li.project1 .content-capa1 h5 {
+  color: black;
+  width: 535px;
+  margin: auto;
+}
+/* line 43, ../sass/mixin/_project-expo.scss */
+section#work ul li.project1 .content-capa1 h3 {
+  color: #0d8ab9;
+  margin-bottom: 5px;
+}
+/* line 49, ../sass/mixin/_project-expo.scss */
+section#work ul li.project1 .content-capa1 h4 {
+  color: black;
+  margin-bottom: 40px;
+}
+/* line 56, ../sass/mixin/_project-expo.scss */
+section#work ul li.project1 a {
+  text-decoration: none;
+  display: block;
+  z-index: 1;
+}
+/* line 61, ../sass/mixin/_project-expo.scss */
+section#work ul li.project1 a aside {
+  width: 100%;
+  height: 290px;
+  padding-top: 70px;
+  top: -70px;
+  position: relative;
+  margin: auto;
+  z-index: 3;
+  text-align: center;
+  background-color: #000;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+/* line 75, ../sass/mixin/_project-expo.scss */
+section#work ul li.project1 a aside img {
+  width: 350px;
+  height: 110px;
+  margin: 20px auto auto auto;
+  z-index: 3;
+  text-align: center;
+}
+/* line 83, ../sass/mixin/_project-expo.scss */
+section#work ul li.project1 a aside h3 {
+  color: #03f1cc;
+}
+
+/*project > project 2*/
+/* line 183, ../sass/stylesheet.scss */
+section#work ul li.project2 {
+  width: 100%;
+  height: 290px;
+  background: url(../img/facetouch-hover-bg.jpg) black no-repeat 50% 50%;
+  background-color: #000;
+  padding-top: 70px;
+  overflow: hidden;
+}
+/* line 15, ../sass/mixin/_project-expo.scss */
+section#work ul li.project2:hover a aside {
+  display: block;
+  background-color: #000;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+}
+/* line 21, ../sass/mixin/_project-expo.scss */
+section#work ul li.project2:hover .content-capa2 {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+/* line 25, ../sass/mixin/_project-expo.scss */
+section#work ul li.project2 .content-capa2 {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 290px;
+  padding-top: 70px;
+  background-color: #dfdfdf;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=1000);
+  opacity: 10;
+  top: -430px;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+/* line 36, ../sass/mixin/_project-expo.scss */
+section#work ul li.project2 .content-capa2 h5 {
+  color: black;
+  width: 535px;
+  margin: auto;
+}
+/* line 43, ../sass/mixin/_project-expo.scss */
+section#work ul li.project2 .content-capa2 h3 {
+  color: #03a3dd;
+  margin-bottom: 5px;
+}
+/* line 49, ../sass/mixin/_project-expo.scss */
+section#work ul li.project2 .content-capa2 h4 {
+  color: black;
+  margin-bottom: 40px;
+}
+/* line 56, ../sass/mixin/_project-expo.scss */
+section#work ul li.project2 a {
+  text-decoration: none;
+  display: block;
+  z-index: 1;
+}
+/* line 61, ../sass/mixin/_project-expo.scss */
+section#work ul li.project2 a aside {
+  width: 100%;
+  height: 290px;
+  padding-top: 70px;
+  top: -70px;
+  position: relative;
+  margin: auto;
+  z-index: 3;
+  text-align: center;
+  background-color: #000;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+/* line 75, ../sass/mixin/_project-expo.scss */
+section#work ul li.project2 a aside img {
+  width: 350px;
+  height: 110px;
+  margin: 20px auto auto auto;
+  z-index: 3;
+  text-align: center;
+}
+/* line 83, ../sass/mixin/_project-expo.scss */
+section#work ul li.project2 a aside h3 {
+  color: #03f1cc;
+}
+
+/*project > project 3*/
+/* line 194, ../sass/stylesheet.scss */
+section#work ul li.project3 {
+  width: 100%;
+  height: 290px;
+  background: url(../img/lula-hover-bg.jpg) black no-repeat 50% 50%;
+  background-color: #000;
+  padding-top: 70px;
+  overflow: hidden;
+}
+/* line 15, ../sass/mixin/_project-expo.scss */
+section#work ul li.project3:hover a aside {
+  display: block;
+  background-color: #000;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+}
+/* line 21, ../sass/mixin/_project-expo.scss */
+section#work ul li.project3:hover .content-capa3 {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+/* line 25, ../sass/mixin/_project-expo.scss */
+section#work ul li.project3 .content-capa3 {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 290px;
+  padding-top: 70px;
+  background-color: #d71313;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=1000);
+  opacity: 10;
+  top: -430px;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+/* line 36, ../sass/mixin/_project-expo.scss */
+section#work ul li.project3 .content-capa3 h5 {
+  color: white;
+  width: 535px;
+  margin: auto;
+}
+/* line 43, ../sass/mixin/_project-expo.scss */
+section#work ul li.project3 .content-capa3 h3 {
+  color: white;
+  margin-bottom: 5px;
+}
+/* line 49, ../sass/mixin/_project-expo.scss */
+section#work ul li.project3 .content-capa3 h4 {
+  color: white;
+  margin-bottom: 40px;
+}
+/* line 56, ../sass/mixin/_project-expo.scss */
+section#work ul li.project3 a {
+  text-decoration: none;
+  display: block;
+  z-index: 1;
+}
+/* line 61, ../sass/mixin/_project-expo.scss */
+section#work ul li.project3 a aside {
+  width: 100%;
+  height: 290px;
+  padding-top: 70px;
+  top: -70px;
+  position: relative;
+  margin: auto;
+  z-index: 3;
+  text-align: center;
+  background-color: #000;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+/* line 75, ../sass/mixin/_project-expo.scss */
+section#work ul li.project3 a aside img {
+  width: 350px;
+  height: 110px;
+  margin: 20px auto auto auto;
+  z-index: 3;
+  text-align: center;
+}
+/* line 83, ../sass/mixin/_project-expo.scss */
+section#work ul li.project3 a aside h3 {
+  color: #03f1cc;
+}
+
+/*project > project 4*/
+/* line 205, ../sass/stylesheet.scss */
+section#work ul li.project4 {
+  width: 100%;
+  height: 290px;
+  background: url(../img/mpi-hover-bg.jpg) black no-repeat 50% 50%;
+  background-color: #000;
+  padding-top: 70px;
+  overflow: hidden;
+}
+/* line 15, ../sass/mixin/_project-expo.scss */
+section#work ul li.project4:hover a aside {
+  display: block;
+  background-color: #000;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+}
+/* line 21, ../sass/mixin/_project-expo.scss */
+section#work ul li.project4:hover .content-capa4 {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+/* line 25, ../sass/mixin/_project-expo.scss */
+section#work ul li.project4 .content-capa4 {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 290px;
+  padding-top: 70px;
+  background-color: #ff7800;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=1000);
+  opacity: 10;
+  top: -430px;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+/* line 36, ../sass/mixin/_project-expo.scss */
+section#work ul li.project4 .content-capa4 h5 {
+  color: black;
+  width: 535px;
+  margin: auto;
+}
+/* line 43, ../sass/mixin/_project-expo.scss */
+section#work ul li.project4 .content-capa4 h3 {
+  color: white;
+  margin-bottom: 5px;
+}
+/* line 49, ../sass/mixin/_project-expo.scss */
+section#work ul li.project4 .content-capa4 h4 {
+  color: black;
+  margin-bottom: 40px;
+}
+/* line 56, ../sass/mixin/_project-expo.scss */
+section#work ul li.project4 a {
+  text-decoration: none;
+  display: block;
+  z-index: 1;
+}
+/* line 61, ../sass/mixin/_project-expo.scss */
+section#work ul li.project4 a aside {
+  width: 100%;
+  height: 290px;
+  padding-top: 70px;
+  top: -70px;
+  position: relative;
+  margin: auto;
+  z-index: 3;
+  text-align: center;
+  background-color: #000;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+/* line 75, ../sass/mixin/_project-expo.scss */
+section#work ul li.project4 a aside img {
+  width: 350px;
+  height: 110px;
+  margin: 20px auto auto auto;
+  z-index: 3;
+  text-align: center;
+}
+/* line 83, ../sass/mixin/_project-expo.scss */
+section#work ul li.project4 a aside h3 {
+  color: #03f1cc;
+}
+
+/*project > project 5*/
+/* line 216, ../sass/stylesheet.scss */
+section#work ul li.project5 {
+  width: 100%;
+  height: 290px;
+  background: url(../img/metro-hover-bg.jpg) black no-repeat 50% 50%;
+  background-color: #000;
+  padding-top: 70px;
+  overflow: hidden;
+}
+/* line 15, ../sass/mixin/_project-expo.scss */
+section#work ul li.project5:hover a aside {
+  display: block;
+  background-color: #000;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+}
+/* line 21, ../sass/mixin/_project-expo.scss */
+section#work ul li.project5:hover .content-capa5 {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+/* line 25, ../sass/mixin/_project-expo.scss */
+section#work ul li.project5 .content-capa5 {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 290px;
+  padding-top: 70px;
+  background-color: #0d8ab9;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=1000);
+  opacity: 10;
+  top: -430px;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+/* line 36, ../sass/mixin/_project-expo.scss */
+section#work ul li.project5 .content-capa5 h5 {
+  color: white;
+  width: 535px;
+  margin: auto;
+}
+/* line 43, ../sass/mixin/_project-expo.scss */
+section#work ul li.project5 .content-capa5 h3 {
+  color: white;
+  margin-bottom: 5px;
+}
+/* line 49, ../sass/mixin/_project-expo.scss */
+section#work ul li.project5 .content-capa5 h4 {
+  color: white;
+  margin-bottom: 40px;
+}
+/* line 56, ../sass/mixin/_project-expo.scss */
+section#work ul li.project5 a {
+  text-decoration: none;
+  display: block;
+  z-index: 1;
+}
+/* line 61, ../sass/mixin/_project-expo.scss */
+section#work ul li.project5 a aside {
+  width: 100%;
+  height: 290px;
+  padding-top: 70px;
+  top: -70px;
+  position: relative;
+  margin: auto;
+  z-index: 3;
+  text-align: center;
+  background-color: #000;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+/* line 75, ../sass/mixin/_project-expo.scss */
+section#work ul li.project5 a aside img {
+  width: 350px;
+  height: 110px;
+  margin: 20px auto auto auto;
+  z-index: 3;
+  text-align: center;
+}
+/* line 83, ../sass/mixin/_project-expo.scss */
+section#work ul li.project5 a aside h3 {
+  color: #03f1cc;
+}
+
+/*___________________*/
+/*footer*/
+/* line 235, ../sass/stylesheet.scss */
+footer {
+  background-color: #03f1cc;
+  margin: auto;
+}
+
+/* line 240, ../sass/stylesheet.scss */
+footer a nav {
+  text-align: center;
+  padding: 20px;
+}
+
+/* line 245, ../sass/stylesheet.scss */
+footer a.go-top nav {
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: #000;
+  font-size: 20px;
+  font-family: 'Roboto', Arial, serif;
+  font-weight: 300;
+}

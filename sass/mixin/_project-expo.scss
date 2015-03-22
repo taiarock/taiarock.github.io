@@ -1,0 +1,90 @@
+@mixin project-expo 
+	($bg-project:$bg-project,
+	$highlight-project:$highlight-project,
+	$title-color-project:$title-color-project,
+	$subtitle-color-project:$subtitle-color-project,
+	$description-color-project:$description-color-project,$content-capa:$content-capa) {
+
+	width: 100%;
+	height: 290px;
+	background: url(../img/#{$bg-project}.jpg) #000 no-repeat 50% 50%;
+	background-color: #000;
+	padding-top: 70px;
+	overflow: hidden;
+
+	&:hover a aside{
+		display: block;
+		background-color: #000;
+		@include opacity(0.8);
+	}
+
+	&:hover .#{$content-capa}{	
+		@include opacity(0);
+	}
+
+	.#{$content-capa} {
+		display: block;
+		position: relative;
+		width: 100%;
+		height: 290px;
+		padding-top: 70px;
+		background-color: $highlight-project;
+		@include opacity(10);
+		top: -430px;
+		@include transition-duration(.3s);
+
+		h5 {
+			color: $description-color-project;
+			width: 535px;
+			margin: auto;
+		}
+
+
+		h3 {
+			color: $title-color-project;
+			margin-bottom: 5px;
+
+		}
+
+		h4 {
+			color: $subtitle-color-project;
+			margin-bottom: 40px;
+
+		}
+	}
+
+	a{
+		text-decoration: none;
+		display: block;
+		z-index: 1;
+
+		aside {
+	
+			width: 100%;
+			height: 290px;
+			padding-top: 70px;
+			top: -70px;
+			position: relative;
+			margin: auto;
+			z-index: 3;
+			text-align: center;
+			background-color: #000;
+			@include opacity(0);
+			@include transition-duration(.3s);
+
+			img {
+				width: 350px;
+				height: 110px;
+				margin: 20px auto auto auto;
+				z-index: 3;
+				text-align: center;
+			}
+
+			h3 {
+				color: $highlight-taia-color;
+			}
+
+		}
+	}
+}
+

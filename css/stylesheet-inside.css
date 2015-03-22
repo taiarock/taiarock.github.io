@@ -1,0 +1,714 @@
+@charset "utf-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* CSS Document */
+/* line 20, ../sass/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 30, ../sass/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 33, ../sass/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 36, ../sass/_reset.scss */
+ol, ul, li {
+  list-style: none;
+}
+
+/* line 39, ../sass/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 43, ../sass/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 47, ../sass/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 52, ../sass/_reset.scss */
+a {
+  text-decoration: none;
+}
+
+/*arquivo para gerenciar os projetos*/
+/* line 8, ../sass/stylesheet-inside.scss */
+h1 {
+  font-family: 'sequilight', Arial, serif;
+  font-size: 71px;
+  line-height: 65px;
+  text-align: center;
+}
+
+/* line 16, ../sass/stylesheet-inside.scss */
+h2 {
+  font-family: 'Roboto', Arial, serif;
+  font-weight: 100;
+  font-size: 35px;
+  color: #28c2aa;
+  text-align: center;
+}
+
+/* line 23, ../sass/stylesheet-inside.scss */
+h3 {
+  font-family: 'Roboto', Arial, serif;
+  font-weight: 500;
+  font-size: 80px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 32, ../sass/stylesheet-inside.scss */
+h4 {
+  font-family: 'Roboto', Arial, serif;
+  font-weight: 100;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* line 40, ../sass/stylesheet-inside.scss */
+h5 {
+  font-family: 'Roboto', Arial, serif;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+  line-height: 23px;
+}
+
+/* line 47, ../sass/stylesheet-inside.scss */
+h5::selection, h4::selection {
+  background: #03f1cc;
+  color: #000;
+}
+
+/* Gecko/Mozilla */
+/* line 53, ../sass/stylesheet-inside.scss */
+h5::-moz-selection, h4::-moz-selection {
+  background: #03f1cc;
+  color: #000;
+}
+
+/*------ HEADER ------------------------*/
+/* line 61, ../sass/stylesheet-inside.scss */
+section#line-mpi {
+  width: 100%;
+  height: 4px;
+  background-color: #ffaa5e;
+  background-position: center top;
+  margin: auto;
+  display: block;
+}
+
+/* line 72, ../sass/stylesheet-inside.scss */
+section#line-mpd {
+  width: 100%;
+  height: 4px;
+  background-color: #eed028;
+  background-position: center top;
+  margin: auto;
+  display: block;
+}
+
+/* line 81, ../sass/stylesheet-inside.scss */
+section#line-lula {
+  width: 100%;
+  height: 4px;
+  background-color: #9f1111;
+  background-position: center top;
+  margin: auto;
+  display: block;
+}
+
+/* line 90, ../sass/stylesheet-inside.scss */
+section#line-facetouch {
+  width: 100%;
+  height: 4px;
+  background-color: #a1a1a1;
+  background-position: center top;
+  margin: auto;
+  display: block;
+}
+
+/* line 99, ../sass/stylesheet-inside.scss */
+section#line-metro {
+  width: 100%;
+  height: 4px;
+  background-color: #00466c;
+  background-position: center top;
+  margin: auto;
+  display: block;
+}
+
+/* line 108, ../sass/stylesheet-inside.scss */
+header#header-metro {
+  height: 100px;
+  background-color: #0d8ab9;
+  padding: 30px;
+  margin: auto auto 30px auto;
+}
+
+/* line 116, ../sass/stylesheet-inside.scss */
+header#header-mpi {
+  height: 100px;
+  background-color: #ff7800;
+  padding: 30px;
+  margin: auto auto 30px auto;
+}
+
+/* line 124, ../sass/stylesheet-inside.scss */
+header#header-mpd {
+  height: 100px;
+  background-color: #f4da4c;
+  padding: 30px;
+  margin: auto auto 30px auto;
+}
+
+/* line 132, ../sass/stylesheet-inside.scss */
+header#header-lula {
+  height: 100px;
+  background-color: #d71313;
+  padding: 30px;
+  margin: auto auto 30px auto;
+}
+
+/* line 140, ../sass/stylesheet-inside.scss */
+header#header-facetouch {
+  height: 100px;
+  background-color: #dfdfdf;
+  padding: 30px;
+  margin: auto auto 30px auto;
+}
+
+/* line 147, ../sass/stylesheet-inside.scss */
+header#header-mpi h3, header#header-lula h3, header#header-metro h3 {
+  color: #fff;
+}
+
+/* line 151, ../sass/stylesheet-inside.scss */
+header#header-mpd h3 {
+  color: #0d8ab9;
+}
+
+/* line 155, ../sass/stylesheet-inside.scss */
+header#header-facetouch h3 {
+  color: #0a6db3;
+}
+
+/*------ MPI DIGITAL ------------------------*/
+/* line 163, ../sass/stylesheet-inside.scss */
+section#mpidigital {
+  width: 978px;
+  margin: auto;
+}
+
+/* line 169, ../sass/stylesheet-inside.scss */
+section#mpidigital img.square {
+  margin: auto auto 50px auto;
+}
+
+/* line 175, ../sass/stylesheet-inside.scss */
+section#mpidigital aside.left, section#mpidigital aside.right {
+  width: 390px;
+  height: auto;
+  margin-top: 200px;
+}
+
+/* line 181, ../sass/stylesheet-inside.scss */
+section#mpidigital aside.left {
+  float: left;
+}
+
+/* line 185, ../sass/stylesheet-inside.scss */
+section#mpidigital aside.right {
+  float: right;
+}
+
+/* line 189, ../sass/stylesheet-inside.scss */
+section#mpidigital aside.center {
+  margin-bottom: 20px;
+}
+
+/* line 194, ../sass/stylesheet-inside.scss */
+section#mpidigital aside.center h4 {
+  font-weight: 300;
+  color: #ff7800;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 201, ../sass/stylesheet-inside.scss */
+section#mpidigital aside.center h5 {
+  font-size: 18px;
+  color: #6f6f6f;
+  text-align: center;
+}
+
+/* line 208, ../sass/stylesheet-inside.scss */
+section#mpidigital aside.left h5, section#mpidigital aside.right h5 {
+  font-size: 18px;
+  color: #6f6f6f;
+  text-align: left;
+}
+
+/* line 214, ../sass/stylesheet-inside.scss */
+section#mpidigital aside.left h4, section#mpidigital aside.right h4 {
+  font-weight: 300;
+  color: #ff7800;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+/* line 221, ../sass/stylesheet-inside.scss */
+section#mpidigital img.circle-right {
+  width: 520px;
+  height: 521px;
+  float: right;
+  margin-bottom: 50px;
+}
+
+/* line 229, ../sass/stylesheet-inside.scss */
+section#mpidigital img.circle-left {
+  width: 520px;
+  height: 521px;
+  float: left;
+  margin-bottom: 50px;
+}
+
+/*------ MARIDO PÃO DURO ------------------------*/
+/* line 240, ../sass/stylesheet-inside.scss */
+section#mpd {
+  width: 978px;
+  margin: auto;
+}
+
+/* line 246, ../sass/stylesheet-inside.scss */
+section#mpd img.square {
+  margin: auto auto 50px auto;
+}
+
+/* line 252, ../sass/stylesheet-inside.scss */
+section#mpd aside.left, section#mpd aside.right, section#mpd aside.left1 {
+  width: 390px;
+  height: auto;
+}
+
+/* line 258, ../sass/stylesheet-inside.scss */
+section#mpd aside.left1 {
+  float: left;
+  margin-top: 170px;
+}
+
+/* line 262, ../sass/stylesheet-inside.scss */
+section#mpd aside.left {
+  float: left;
+  margin-top: 200px;
+}
+
+/* line 267, ../sass/stylesheet-inside.scss */
+section#mpd aside.right {
+  float: right;
+  margin-top: 200px;
+}
+
+/* line 272, ../sass/stylesheet-inside.scss */
+section#mpd aside.center {
+  margin-bottom: 20px;
+}
+
+/* line 277, ../sass/stylesheet-inside.scss */
+section#mpd aside.center h4 {
+  font-weight: 300;
+  color: #F3CC02;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 284, ../sass/stylesheet-inside.scss */
+section#mpd aside.center h5 {
+  font-size: 18px;
+  color: #6f6f6f;
+  text-align: center;
+}
+
+/* line 290, ../sass/stylesheet-inside.scss */
+section#mpd aside.left h5, section#mpd aside.left1 h5, section#mpd aside.right h5, section#mpd aside.right1 h5 {
+  font-size: 18px;
+  color: #6f6f6f;
+  text-align: left;
+}
+
+/* line 297, ../sass/stylesheet-inside.scss */
+section#mpd aside.left h4, section#mpd aside.left1 h4, section#mpd aside.right h4, section#mpd aside.right1 h4 {
+  font-weight: 300;
+  color: #F3CC02;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+/* line 304, ../sass/stylesheet-inside.scss */
+section#mpd img.circle-right {
+  width: 520px;
+  height: 521px;
+  float: right;
+  margin-bottom: 50px;
+}
+
+/* line 312, ../sass/stylesheet-inside.scss */
+section#mpd img.circle-right1 {
+  width: 520px;
+  height: 521px;
+  float: right;
+  margin-top: -90px;
+  margin-bottom: 50px;
+}
+
+/* line 321, ../sass/stylesheet-inside.scss */
+section#mpd img.circle-left {
+  width: 520px;
+  height: 521px;
+  float: left;
+  margin-bottom: 50px;
+}
+
+/*------ FACETOUCH ------------------------*/
+/* line 330, ../sass/stylesheet-inside.scss */
+section#facetouch {
+  width: 978px;
+  margin: auto;
+}
+
+/* line 337, ../sass/stylesheet-inside.scss */
+section#facetouch img.square {
+  margin: auto auto 50px auto;
+}
+
+/* line 343, ../sass/stylesheet-inside.scss */
+section#facetouch aside.left, section#facetouch aside.right {
+  width: 390px;
+  height: auto;
+  margin-top: 200px;
+}
+
+/* line 349, ../sass/stylesheet-inside.scss */
+section#facetouch aside.left {
+  float: left;
+}
+
+/* line 353, ../sass/stylesheet-inside.scss */
+section#facetouch aside.right {
+  float: right;
+}
+
+/* line 357, ../sass/stylesheet-inside.scss */
+section#facetouch aside.center {
+  margin-bottom: 20px;
+}
+
+/* line 362, ../sass/stylesheet-inside.scss */
+section#facetouch aside.left h5, section#facetouch aside.right h5 {
+  font-size: 18px;
+  color: #6f6f6f;
+  text-align: left;
+}
+
+/* line 368, ../sass/stylesheet-inside.scss */
+section#facetouch aside.left h4, section#facetouch aside.right h4 {
+  font-weight: 300;
+  color: #0a6db3;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+/* line 375, ../sass/stylesheet-inside.scss */
+section#facetouch aside.center h4 {
+  font-weight: 300;
+  color: #0a6db3;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 382, ../sass/stylesheet-inside.scss */
+section#facetouch aside.center h5 {
+  font-size: 18px;
+  color: #6f6f6f;
+  text-align: center;
+}
+
+/* line 388, ../sass/stylesheet-inside.scss */
+section#facetouch img.circle-right {
+  width: 520px;
+  height: 521px;
+  float: right;
+  margin-bottom: 50px;
+}
+
+/* line 396, ../sass/stylesheet-inside.scss */
+section#facetouch img.circle-left {
+  width: 520px;
+  height: 521px;
+  float: left;
+  margin-bottom: 50px;
+}
+
+/*------ LULA ------------------------*/
+/* line 406, ../sass/stylesheet-inside.scss */
+section#lula {
+  width: 978px;
+  margin: auto;
+}
+
+/* line 413, ../sass/stylesheet-inside.scss */
+section#lula img.square {
+  margin: auto auto 50px auto;
+}
+
+/* line 419, ../sass/stylesheet-inside.scss */
+section#lula aside.left, section#lula aside.right {
+  width: 390px;
+  height: auto;
+  margin-top: 200px;
+}
+
+/* line 425, ../sass/stylesheet-inside.scss */
+section#lula aside.left {
+  float: left;
+}
+
+/* line 429, ../sass/stylesheet-inside.scss */
+section#lula aside.right {
+  float: right;
+}
+
+/* line 433, ../sass/stylesheet-inside.scss */
+section#lula aside.center {
+  margin-bottom: 20px;
+}
+
+/* line 438, ../sass/stylesheet-inside.scss */
+section#lula aside.left h5, section#lula aside.right h5 {
+  font-size: 18px;
+  color: #6f6f6f;
+  text-align: left;
+}
+
+/* line 444, ../sass/stylesheet-inside.scss */
+section#lula aside.left h4, section#lula aside.right h4 {
+  font-weight: 300;
+  color: #d71313;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+/* line 452, ../sass/stylesheet-inside.scss */
+section#lula aside.center h4 {
+  font-weight: 300;
+  color: #d71313;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 459, ../sass/stylesheet-inside.scss */
+section#lula aside.center h5 {
+  font-size: 18px;
+  color: #6f6f6f;
+  text-align: center;
+}
+
+/* line 465, ../sass/stylesheet-inside.scss */
+section#lula img.circle-right {
+  width: 520px;
+  height: 521px;
+  float: right;
+  margin-bottom: 50px;
+}
+
+/* line 473, ../sass/stylesheet-inside.scss */
+section#lula img.circle-left {
+  width: 520px;
+  height: 521px;
+  float: left;
+  margin-bottom: 50px;
+}
+
+/*------ METRO RIO ------------------------*/
+/* line 483, ../sass/stylesheet-inside.scss */
+section#metro {
+  width: 978px;
+  margin: auto;
+}
+
+/* line 489, ../sass/stylesheet-inside.scss */
+section#metro img.square {
+  margin: auto auto 50px auto;
+}
+
+/* line 495, ../sass/stylesheet-inside.scss */
+section#metro aside.left, section#metro aside.right, section#metro aside.left1 {
+  width: 390px;
+  height: auto;
+}
+
+/* line 501, ../sass/stylesheet-inside.scss */
+section#metro aside.left1 {
+  float: left;
+  margin-top: 170px;
+}
+
+/* line 505, ../sass/stylesheet-inside.scss */
+section#metro aside.left {
+  float: left;
+  margin-top: 200px;
+}
+
+/* line 510, ../sass/stylesheet-inside.scss */
+section#metro aside.right {
+  float: right;
+  margin-top: 200px;
+}
+
+/* line 515, ../sass/stylesheet-inside.scss */
+section#metro aside.center {
+  margin-bottom: 20px;
+}
+
+/* line 520, ../sass/stylesheet-inside.scss */
+section#metro aside.center h4 {
+  font-weight: 300;
+  color: #03a3dd;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 527, ../sass/stylesheet-inside.scss */
+section#metro aside.center h5 {
+  font-size: 18px;
+  color: #6f6f6f;
+  text-align: center;
+}
+
+/* line 533, ../sass/stylesheet-inside.scss */
+section#metro aside.left h5, section#metro aside.left1 h5, section#metro aside.right h5, section#metro aside.right1 h5 {
+  font-size: 18px;
+  color: #6f6f6f;
+  text-align: left;
+}
+
+/* line 540, ../sass/stylesheet-inside.scss */
+section#metro aside.left h4, section#metro aside.left1 h4, section#metro aside.right h4, section#metro aside.right1 h4 {
+  font-weight: 300;
+  color: #03a3dd;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+/* line 547, ../sass/stylesheet-inside.scss */
+section#metro img.circle-right {
+  width: 520px;
+  height: 521px;
+  float: right;
+  margin-bottom: 50px;
+}
+
+/* line 555, ../sass/stylesheet-inside.scss */
+section#metro img.circle-right1 {
+  width: 520px;
+  height: 521px;
+  float: right;
+  margin-top: -90px;
+  margin-bottom: 50px;
+}
+
+/* line 564, ../sass/stylesheet-inside.scss */
+section#metro img.circle-left {
+  width: 520px;
+  height: 521px;
+  float: left;
+  margin-bottom: 50px;
+}
+
+/*------ FOOTER ------------------------*/
+/* line 577, ../sass/stylesheet-inside.scss */
+footer, section#back {
+  width: 100%;
+  margin: auto;
+  clear: both;
+}
+
+/* line 583, ../sass/stylesheet-inside.scss */
+footer a nav {
+  text-align: center;
+  padding: 20px;
+  background-color: #03f1cc;
+  border-bottom: #09c7a9 4px solid;
+}
+
+/* line 590, ../sass/stylesheet-inside.scss */
+footer a.go-top nav {
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: #000;
+  font-size: 20px;
+  font-family: 'Roboto', Arial, serif;
+  font-weight: 300;
+}
+
+/* line 599, ../sass/stylesheet-inside.scss */
+footer a div {
+  text-align: center;
+  padding: 20px;
+  background-color: #1e1e1e;
+}
+
+/* line 605, ../sass/stylesheet-inside.scss */
+footer a.go-home div, section#back a.go-home div {
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Roboto', Arial, serif;
+  font-weight: 300;
+}
+
+/* line 614, ../sass/stylesheet-inside.scss */
+section#back a div {
+  text-align: center;
+  padding: 20px;
+  background-color: #1e1e1e;
+}
